@@ -1,0 +1,17 @@
+const jwt = require('jsonwebtoken');
+
+const secret = 'supersecretkey';
+
+function generateToken(user) {
+    return jwt.sign(user, secret, { expiresIn: '1h' });
+}
+
+function verifyToken(token) {
+    try {
+        return jwt.verify(token, secret);
+    } catch (e) {
+        return null;
+    }
+}
+
+module.exports = { generateToken, verifyToken };
