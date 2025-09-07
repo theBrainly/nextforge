@@ -6,3 +6,7 @@ Early prototype for the NextForge project.
 
 1. Install dependencies: `npm install`
 2. Run server: `npm start`
+
+## Features
+- Express server
+- JWT Auth
