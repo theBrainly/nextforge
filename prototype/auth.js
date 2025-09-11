@@ -15,3 +15,5 @@ function verifyToken(token) {
 }
 
 module.exports = { generateToken, verifyToken };
+
+// TODO: Add refresh token logic
