@@ -11,3 +11,4 @@ app.listen(port, () => {
 });
 
 app.use(express.json());
+const auth = require('./auth');
