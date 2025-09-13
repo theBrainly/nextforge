@@ -7,3 +7,5 @@ function log(message) {
 }
 
 module.exports = { log };
+
+// Fixed timestamp formatting
