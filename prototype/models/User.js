@@ -11,3 +11,5 @@ class User {
 }
 
 module.exports = User;
+
+    save() { console.log('Saving user...'); }
