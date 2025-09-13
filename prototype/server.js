@@ -12,3 +12,4 @@ app.listen(port, () => {
 
 app.use(express.json());
 const auth = require('./auth');
+app.get('/health', (req, res) => res.sendStatus(200));
