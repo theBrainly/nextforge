@@ -15,3 +15,5 @@ CREATE TABLE posts (
 
 CREATE INDEX idx_users_username ON users(username);
 // Update 1771332647144
+
+// Update 1771332647747
